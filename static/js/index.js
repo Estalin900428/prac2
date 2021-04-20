@@ -3,7 +3,7 @@
 function estadoSensores1(){
   console.log("sensor1")
   message = new Paho.MQTT.Message("sensor1");
-  message.destinationName = "gestalin@hotmail.com.com/test1";
+  message.destinationName = "gestalin@hotmail.com/test1";
   client.send(message);
 }
 
