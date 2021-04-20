@@ -28,7 +28,7 @@ function estadoSensores2(){
   client.onMessageArrived = onMessageArrived;
   var options = {
     useSSL: false,
-    userName: "gestalin@hotmail.com.com",
+    userName: "gestalin@hotmail.com",
     password: "ESTALIN0428",
     onSuccess:onConnect,
     onFailure:doFail
